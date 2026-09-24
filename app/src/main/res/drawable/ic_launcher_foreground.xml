@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Shield Base -->
+        <path
+            android:fillColor="#1B5E20"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M54,18 C68,18 78,22 84,28 C84,52 70,72 54,88 C38,72 24,52 24,28 C30,22 40,18 54,18 Z" />
+
+        <!-- Laurel wreath branches left & right -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M33,40 C31,43 31,48 33,52 C35,48 35,44 33,40 Z M32,54 C31,58 33,63 36,66 C36,62 35,57 32,54 Z M75,40 C77,43 77,48 75,52 C73,48 73,44 75,40 Z M76,54 C77,58 75,63 72,66 C72,62 73,57 76,54 Z" />
+
+        <!-- White Greek Cross inside shield -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M48,32 L60,32 L60,45 L73,45 L73,57 L60,57 L60,70 L48,70 L48,57 L35,57 L35,45 L48,45 Z" />
+
+        <!-- Circular Blue Medical Circle Ring with Leaf -->
+        <path
+            android:fillColor="#0D47A1"
+            android:pathData="M54,38 A13,13 0 1,0 54,64 A13,13 0 1,0 54,38 Z" />
+
+        <!-- Inner White Ring / Leaf -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,42 A9,9 0 1,1 53.9,42 Z" />
+
+        <!-- Inner Blue Cross -->
+        <path
+            android:fillColor="#1976D2"
+            android:pathData="M52,44 L56,44 L56,49 L61,49 L61,53 L56,53 L56,58 L52,58 L52,53 L47,53 L47,49 L52,49 Z" />
+
+        <!-- Green Pharmacy Leaf accent -->
+        <path
+            android:fillColor="#4CAF50"
+            android:pathData="M59,42 C64,40 67,42 66,47 C62,47 60,45 59,42 Z" />
+
+        <!-- Banner base at bottom -->
+        <path
+            android:fillColor="#0B3C11"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1"
+            android:pathData="M22,82 L86,82 L80,92 L54,88 L28,92 Z" />
+    </group>
+</vector>

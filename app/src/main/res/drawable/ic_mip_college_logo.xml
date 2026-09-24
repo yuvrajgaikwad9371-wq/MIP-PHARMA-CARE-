@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Green shield background -->
+    <path
+        android:fillColor="#0E7836"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:pathData="M60,10 C78,10 92,15 100,24 C100,60 82,88 60,105 C38,88 20,60 20,24 C28,15 42,10 60,10 Z" />
+
+    <!-- Shield inner outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#179745"
+        android:strokeWidth="2"
+        android:pathData="M60,15 C76,15 88,19 95,27 C95,57 79,83 60,98 C41,83 25,57 25,27 C32,19 44,15 60,15 Z" />
+
+    <!-- Laurel leaves left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,45 C29,48 29,54 32,58 C34,54 34,49 32,45 Z M31,60 C29,65 32,71 36,74 C36,70 34,64 31,60 Z M35,76 C36,81 40,86 45,88 C44,84 41,79 35,76 Z" />
+
+    <!-- Laurel leaves right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88,45 C91,48 91,54 88,58 C86,54 86,49 88,45 Z M89,60 C91,65 88,71 84,74 C84,70 86,64 89,60 Z M85,76 C84,81 80,86 75,88 C76,84 79,79 85,76 Z" />
+
+    <!-- White Medical Cross -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,28 L68,28 L68,46 L86,46 L86,62 L68,62 L68,80 L52,80 L52,62 L34,62 L34,46 L52,46 Z" />
+
+    <!-- Blue circle border with Leaf ring -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M60,37 A17,17 0 1,0 60,71 A17,17 0 1,0 60,37 Z" />
+
+    <!-- White circle gap -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,42 A12,12 0 1,1 59.9,42 Z" />
+
+    <!-- Inner Blue Cross -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M57,45 L63,45 L63,51 L69,51 L69,57 L63,57 L63,63 L57,63 L57,57 L51,57 L51,51 L57,51 Z" />
+
+    <!-- Green pharmacy leaf symbol -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M66,41 C72,39 76,42 75,48 C70,48 67,45 66,41 Z" />
+
+    <!-- Bottom Ribbon / Banner -->
+    <path
+        android:fillColor="#084B20"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:pathData="M16,98 L104,98 L96,114 L60,108 L24,114 Z" />
+
+    <!-- Ribbon Fold detail -->
+    <path
+        android:fillColor="#042610"
+        android:pathData="M16,98 L24,98 L24,106 Z M104,98 L96,98 L96,106 Z" />
+</vector>
